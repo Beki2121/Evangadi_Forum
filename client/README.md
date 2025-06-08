@@ -16,4 +16,4 @@ Hiwot:
 Degefa:
 Kine:
 Mohammed:
-Micki: hi guys it's me Michael fdkjgfgf fgdgjhfgjhgshslgsghslsd
+Micki: hi everything crashed

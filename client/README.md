@@ -16,4 +16,4 @@ Hiwot:
 Degefa:
 Kine:
 Mohammed:
-Micki: hi guys it's me micho
+Micki: hi guys it's me Michael

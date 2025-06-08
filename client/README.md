@@ -8,12 +8,12 @@
 test for branching
 GIT PULL, PUSH AND PULL REQUEST TEST WITH THE BELOVED TEAM MATES 🤝
 Hani: Hi everyone
-Aman:  
- Sofi:
+Aman:
+Sofi:
 Selam:
 Atsie:
 Hiwot:
 Degefa:
 Kine:
 Mohammed:
-Micki:
+Micki: hi guys

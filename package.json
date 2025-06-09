@@ -1,0 +1,24 @@
+{
+  "name": "evangadi_forum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beki2121/Evangadi_Forum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Beki2121/Evangadi_Forum/issues"
+  },
+  "homepage": "https://github.com/Beki2121/Evangadi_Forum#readme",
+  "dependencies": {
+    "react-toastify": "^11.0.5"
+  }
+}

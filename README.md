@@ -34,7 +34,7 @@ To set up the project locally, follow these steps:
 We welcome contributions to enhance the Evangadi Forum! To contribute:
 1. Fork the repository and make your changes.
 2. Submit a pull request with a description of the changes.
-# evangadi_forum_2024
+# evangadi_forum
 
 
 <!-- table creator code -->

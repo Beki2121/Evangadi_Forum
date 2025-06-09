@@ -36,7 +36,6 @@ function AppRouter() {
           </PublicRoute>
         }
       />
-      {/* <Route path="/auth" element={<AuthLayout />} /> */}
       <Route path="/forgetPass" element={<ForgotPassword />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>

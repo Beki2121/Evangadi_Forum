@@ -1,9 +1,9 @@
-# EVANGADI FORUM PROJECT - EVANGADI BOOTCAMP
+
 
 ## project collaboration links
 
-- click up https://app.clickup.com/9012989170/v/l/8ckek7j-272
-- Github Repo https://github.com/Beki2121/Evangadi-Forum
+- Trello https://trello.com/b/JGaObxOA/evangadi-forum
+- Github Repo https://github.com/Beki2121/Evangadi_Forum
 
 test for branching
 GIT PULL, PUSH AND PULL REQUEST TEST WITH THE BELOVED TEAM MATES 🤝
@@ -16,4 +16,4 @@ Hiwot:
 Degefa:
 Kine:
 Mohammed:
-Micki: hi guys the rjjgefhrj
+

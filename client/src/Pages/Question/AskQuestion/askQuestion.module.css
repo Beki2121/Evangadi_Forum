@@ -1,0 +1,117 @@
+.allContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Changed from center to flex-start to align them to the top, which might look better */
+  gap: 30px; /* Add this or adjust if already present. Try a smaller value like 20px, 30px, 40px */
+  background: url("../../../assets/Images/howitworkbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px; /* Add some padding to the container itself if items are too close to edges */
+}
+
+.question__container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  /* padding: 10px; */
+}
+
+.question__header__title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.questionContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.questionListUl {
+  padding: 0 !important;
+}
+
+.questionTitle {
+  font-size: 1.6rem;
+  /* margin-bottom: 15px; */
+  color: #333;
+}
+
+.questionListUl {
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 0 !important;
+}
+
+.questionItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.questionItem:last-child {
+  border-bottom: none;
+}
+
+.icon {
+  margin-right: 15px;
+  font-size: 1.2rem;
+  color: var(--blue-main);
+}
+
+.highlight {
+  margin-top: 10px;
+  color: var(--blue-main);
+  font-weight: bold;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.question__button,
+.question__btn {
+  background-color: var(--blue-shade);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.question__btn {
+  background-color: #ccc;
+}
+
+.question__button:hover,
+.question__btn:hover {
+  background-color: var(--blue-main);
+}
+
+.question__form input,
+.question__form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.question__description:focus {
+  outline: none;
+  border: 1.5px solid var(--primary-color) !important;
+}
+.aiChatSection {
+  width: 100%;
+  max-width: 400px; /* Adjust this value as needed, e.g., 500px, 600px */
+  /* You might also want some padding here */
+  padding: 20px;
+  background-color: #f9f9f9; /* Or match your questionContainer background */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}

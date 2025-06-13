@@ -1,4 +1,3 @@
-// config/initDb.js
 const db = require("./dbConfig");
 
 async function initializeDatabase() {

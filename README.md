@@ -56,6 +56,10 @@ Improve collaboration & communication
 Experience real-world software teamwork
 
 👨‍💻 Team Members Messages
+
+“Leadership is unlocking people’s potential to become better.”
+Bereket (Team Leader): Led us from the start with focus and integrity. Your impact continues to guide our path. 🌟
+
 Hani: Hi everyone, proud to be part of this journey!
 
 Aman (Amanuel): 🚀 Ready to grow, help, and build with the team!

@@ -1,11 +1,9 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, forwardRef } from "react"; // Import forwardRef
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 import styles from "./Chatbot.module.css";
 
 // Import icons from react-icons
-// Choose icons that represent "new chat" (e.g., plus, message square)
-// and "history" (e.g., history, list, folder)
 import {
   FiPlusSquare,
   FiList,
@@ -14,7 +12,9 @@ import {
   FiClock,
 } from "react-icons/fi"; // Feather icons
 
-const Chatbot = () => {
+// Wrap the Chatbot component with forwardRef
+const Chatbot = forwardRef((props, ref) => {
+  // Accept props and ref as arguments
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -22,6 +22,9 @@ const Chatbot = () => {
   const [currentView, setCurrentView] = useState("chat"); // 'chat' or 'historyList'
   const [chatSessions, setChatSessions] = useState([]);
 
+  // Use a different ref name internally if you still need to scroll,
+  // or use the forwarded 'ref' for scrolling if it points to the messagesContainer.
+  // For now, let's keep messagesEndRef for internal scrolling.
   const messagesEndRef = useRef(null);
 
   const API_CHAT_URL = "http://localhost:5000/api/ai/chat";
@@ -49,6 +52,9 @@ const Chatbot = () => {
           const response = await axios.get(
             `${API_HISTORY_URL}?sessionId=${currentSession}`
           );
+          // const response = await api.get(
+          //   `/history?sessionId=${currentSession}`
+          // );
           if (response.data.history && response.data.history.length > 0) {
             setMessages(response.data.history);
           } else {
@@ -95,6 +101,10 @@ const Chatbot = () => {
         sessionId: sessionId,
         // userId: YOUR_USER_ID_HERE, // Pass actual user ID if available
       });
+      // const response = await api.post("/chat", {
+      //   message: userMessage.parts,
+      //   sessionId: sessionId,
+      // });
 
       const aiReply = { role: "model", parts: response.data.reply };
       setMessages((prevMessages) => [...prevMessages, aiReply]);
@@ -168,7 +178,8 @@ const Chatbot = () => {
   };
 
   return (
-    <div className={styles.chatbotContainer}>
+    // Attach the forwarded ref to the outermost div of your Chatbot component
+    <div className={styles.chatbotContainer} ref={ref}>
       {/* Header with title and main action buttons */}
       <div className={styles.chatHeader}>
         <h1 className={styles.chatTitle}>AI Assistant</h1>
@@ -273,6 +284,6 @@ const Chatbot = () => {
       )}
     </div>
   );
-};
+});
 
 export default Chatbot;

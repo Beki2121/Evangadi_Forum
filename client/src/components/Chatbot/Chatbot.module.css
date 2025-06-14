@@ -15,6 +15,7 @@
 }
 h1 {
   padding: 10px;
+}
 /* Chat Header with Title and Buttons */
 .chatHeader {
   display: flex;

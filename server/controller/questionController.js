@@ -1,7 +1,6 @@
 // Functionality for Get all Questions
 const { StatusCodes } = require("http-status-codes");
 const dbConnection = require("../config/dbConfig");
-const crypto = require("crypto");
 // get all questions -- CORRECTED FUNCTION
 async function getAllQuestions(req, res) {
   try {

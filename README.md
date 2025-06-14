@@ -76,6 +76,8 @@ Degefa: Onward and upward! Let's build greatness.
 
 Kine: From learners to creators. Let’s shine!
 
+Added voice message recording and playback functionality to the chatbot, including a real-time timer and user interface controls such as "Stop" and "Cancel." Integrated audio message rendering within the chat, along with proper sender labeling and timestamps. Implemented message deletion logic with visual feedback indicating removed messages. Also enhanced the overall chat UI for better alignment, spacing, and responsive behavior to improve user experience and interaction flow.
+
 Mohammed: Proud to be part of such a strong team.
 
 Micki: Every step forward counts—let

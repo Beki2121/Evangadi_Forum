@@ -74,7 +74,7 @@
 }
 .linkBar{
     text-Decoration: "none";
-    color: #959CA4 !important
+    color: #959CA4 !important    
 }
 
 .footer_ul Link{
@@ -90,11 +90,11 @@
 /* Terms and privacy css */
 
 .termsHeader {
-  background-image: url("../../Assets/Images/bg-transparent6.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
+  background-image: url("../../Assets/Images/bg-transparent6.png"); 
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center; 
+  text-align: center; 
   padding: 4rem;
 }
 .terms{
@@ -112,7 +112,7 @@
     font-weight: bold;
     color: black;
 }
-.terms p{
+.terms p{ 
     padding: 5px;
 }
 .footer_contacts h4{

@@ -24,7 +24,7 @@ function Terms() {
           herein. In order to use this website, you must read and accept all of
           the terms and conditions of this agreement and the{" "}
           <Link
-            to="/PrivacyPolicy"
+            to="/PrivacyPolicy"         
           >
             Privacy policy
           </Link>
@@ -35,7 +35,7 @@ function Terms() {
           By accessing, read­ing or oth­er­wise using this website, you hereby
           agree to these terms and conditions and the{" "}
           <Link
-            to="/PrivacyPolicy"
+            to="/PrivacyPolicy"           
           >
             Privacy policy
           </Link>
@@ -129,7 +129,7 @@ function Terms() {
           trademark, trade secret or any other personal or proprietary right of
           any other party.Please take a look at evangadi.com{" "}
           <Link
-            to="/PrivacyPolicy"
+            to="/PrivacyPolicy"            
           >
             Privacy policy
           </Link>{" "}

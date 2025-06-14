@@ -17,13 +17,13 @@ function Footer() {
         </div>
         <div className={classes.footer_icons}>
           <a href="https://www.facebook.com/evangaditech" target="_blank">
-            <FacebookOutlined style= {{ fontSize: "35px" }} />
+            <FacebookOutlined style={{ fontSize: "35px" }} />
           </a>
           <a href="https://www.instagram.com/evangaditech/" target="_blank">
-            <InstagramIcon style= {{ fontSize: "35px" }} />
+            <InstagramIcon style={{ fontSize: "35px" }} />
           </a>
           <a href="https://www.youtube.com/@EvangadiTech" target="_blank">
-            <YouTubeIcon style= {{ fontSize: "40px" }} />
+            <YouTubeIcon style={{ fontSize: "40px" }} />
           </a>
         </div>
       </div>

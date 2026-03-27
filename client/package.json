@@ -18,7 +18,7 @@
     "@google/generative-ai": "^0.24.1",
     "@mui/icons-material": "^6.1.2",
     "@mui/material": "^6.1.2",
-    "axios": "^1.8.2",
+    "axios": "^1.13.5",
     "bootstrap": "^5.3.6",
     "bootstrap-sweetalert": "^0.4.2",
     "dotenv": "^16.5.0",
@@ -28,9 +28,9 @@
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
-    "react-router-dom": "^6.30.1",
+    "react-router-dom": "^6.30.3",
     "react-spinners": "^0.14.1",
-    "sweetalert2": "^11.22.0"
+    "sweetalert2": "^11.22.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -43,6 +43,6 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
-    "vite": "^6.3.5"
+    "vite": "^6.4.1"
   }
 }
